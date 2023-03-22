@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ai-structuring:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-22T14:29:03.710296636+08:00"
+    description: A Helm chart for Kubernetes
+    digest: ff5bc2a7877d3615b12e22b21a15334af4687ace46e4e078f9d3b944386d2ec3
+    name: ai-structuring
+    type: application
+    urls:
+    - https://monstercy.github.io/helm_repo/ai-structuring-0.8.2.tgz
+    version: 0.8.2
+generated: "2023-03-22T14:29:03.709933916+08:00"
