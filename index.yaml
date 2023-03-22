@@ -3,12 +3,12 @@ entries:
   itm-mqtt-broker:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-22T18:33:09.540510062+08:00"
+    created: "2023-03-22T18:39:26.115709085+08:00"
     description: Helm chart for HiveMQ broker
     digest: 084fbedb03a0022433ef05869d22a35ce74955fbd34db2ea3c5598668593d673
     name: itm-mqtt-broker
     type: application
     urls:
-    - https://mattiaperi.github.io/helm-chart/itm-mqtt-broker-1.0.0.tgz
+    - https://raw.githubusercontent.com/monstercy/helm_repo/main/itm-mqtt-broker-1.0.0.tgz
     version: 1.0.0
-generated: "2023-03-22T18:33:09.540260906+08:00"
+generated: "2023-03-22T18:39:26.115468006+08:00"
