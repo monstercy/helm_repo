@@ -9,6 +9,6 @@ entries:
     name: ai-structuring
     type: application
     urls:
-    - https://monstercy.github.io/helm_repo/ai-structuring-0.8.2.tgz
+    - https://raw.githubusercontent.com/monstercy/helm_repo/main/
     version: 0.8.2
 generated: "2023-03-22T14:29:03.709933916+08:00"
