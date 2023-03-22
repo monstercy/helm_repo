@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  ai-structuring:
+  itm-mqtt-broker:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-03-22T14:29:03.710296636+08:00"
-    description: A Helm chart for Kubernetes
-    digest: ff5bc2a7877d3615b12e22b21a15334af4687ace46e4e078f9d3b944386d2ec3
-    name: ai-structuring
+    appVersion: 1.0.0
+    created: "2023-03-22T18:33:09.540510062+08:00"
+    description: Helm chart for HiveMQ broker
+    digest: 084fbedb03a0022433ef05869d22a35ce74955fbd34db2ea3c5598668593d673
+    name: itm-mqtt-broker
     type: application
     urls:
-    - https://raw.githubusercontent.com/monstercy/helm_repo/main/
-    version: 0.8.2
-generated: "2023-03-22T14:29:03.709933916+08:00"
+    - https://mattiaperi.github.io/helm-chart/itm-mqtt-broker-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-03-22T18:33:09.540260906+08:00"
