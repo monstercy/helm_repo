@@ -3,9 +3,9 @@ entries:
   ai-inference:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-23T15:12:57.125566733+08:00"
+    created: "2023-03-23T18:40:46.061763356+08:00"
     description: A Helm chart for Kubernetes
-    digest: 95176fbf2ee79ba18a53a9a25eb8bb406375e8e644c207b9e69374a306ff9a47
+    digest: 6b300c63bff901fb6acdf95c99dda99524e6a0acc32480edefdf221c31823d35
     name: ai-inference
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   ai-structuring:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-23T15:12:57.125870444+08:00"
+    created: "2023-03-23T18:40:46.062070106+08:00"
     description: A Helm chart for Kubernetes
     digest: 07fd9528585963e932df5adcc5b1b2719b3be5c7b3471916d8986b32f21f441c
     name: ai-structuring
@@ -25,7 +25,7 @@ entries:
   itm-mqtt-broker:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-23T15:12:57.126024269+08:00"
+    created: "2023-03-23T18:40:46.062253032+08:00"
     description: Helm chart for HiveMQ broker
     digest: 084fbedb03a0022433ef05869d22a35ce74955fbd34db2ea3c5598668593d673
     name: itm-mqtt-broker
@@ -36,7 +36,7 @@ entries:
   itm-services:
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2023-03-23T15:12:57.134144821+08:00"
+    created: "2023-03-23T18:40:46.070438967+08:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -48,4 +48,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/monstercy/helm_repo/main/itm-services-2.0.0.tgz
     version: 2.0.0
-generated: "2023-03-23T15:12:57.125230815+08:00"
+generated: "2023-03-23T18:40:46.061412994+08:00"
