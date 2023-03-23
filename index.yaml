@@ -3,7 +3,7 @@ entries:
   ai-inference:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-23T09:53:05.595076717+08:00"
+    created: "2023-03-23T10:01:13.076704519+08:00"
     description: A Helm chart for Kubernetes
     digest: 327488dc76fa3f03bfe0ce2437f5606e01aef0e857e32372092c4cc8ece69ed4
     name: ai-inference
@@ -14,9 +14,9 @@ entries:
   ai-structuring:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-23T09:53:05.595332079+08:00"
+    created: "2023-03-23T10:01:13.076962431+08:00"
     description: A Helm chart for Kubernetes
-    digest: ed74c9185567339d112f1f936e1ec8f5315fff8ce532443a4baafbc12de8bb86
+    digest: 07fd9528585963e932df5adcc5b1b2719b3be5c7b3471916d8986b32f21f441c
     name: ai-structuring
     type: application
     urls:
@@ -25,7 +25,7 @@ entries:
   itm-mqtt-broker:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-23T09:53:05.595487182+08:00"
+    created: "2023-03-23T10:01:13.077107014+08:00"
     description: Helm chart for HiveMQ broker
     digest: 084fbedb03a0022433ef05869d22a35ce74955fbd34db2ea3c5598668593d673
     name: itm-mqtt-broker
@@ -33,4 +33,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/monstercy/helm_repo/main/itm-mqtt-broker-1.0.0.tgz
     version: 1.0.0
-generated: "2023-03-23T09:53:05.594673174+08:00"
+generated: "2023-03-23T10:01:13.076306444+08:00"
