@@ -3,7 +3,7 @@ entries:
   ai-inference:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T10:06:02.190990821+08:00"
+    created: "2023-05-10T10:16:09.730369516+08:00"
     description: A Helm chart for Kubernetes
     digest: 6d13cc97a8fe44c8edebf16a51083c5838a20a806f897ab9195f1730536a46a2
     name: ai-inference
@@ -14,9 +14,9 @@ entries:
   ai-inference-couple:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T10:06:02.191756794+08:00"
+    created: "2023-05-10T10:16:09.731248473+08:00"
     description: A Helm chart for Kubernetes
-    digest: 6c71614f579946f6c590f00fbeba1d13b6e312eb3aab08130b080b1b93ed742a
+    digest: 78115e20657039a2afa6b386e607ab7c18b82852f618bcb1131832ce7617fcb2
     name: ai-inference-couple
     type: application
     urls:
@@ -25,7 +25,7 @@ entries:
   ai-structuring:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T10:06:02.192000217+08:00"
+    created: "2023-05-10T10:16:09.731521799+08:00"
     description: A Helm chart for Kubernetes
     digest: 07fd9528585963e932df5adcc5b1b2719b3be5c7b3471916d8986b32f21f441c
     name: ai-structuring
@@ -36,7 +36,7 @@ entries:
   itm-mqtt-broker:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-05-10T10:06:02.192460338+08:00"
+    created: "2023-05-10T10:16:09.731680488+08:00"
     description: Helm chart for HiveMQ broker
     digest: 99d4a46e4b6aeb8a256476b2f5fa3d9739fb08cc0b5cc874c45ab0e2a9f4b6d4
     name: itm-mqtt-broker
@@ -47,7 +47,7 @@ entries:
   itm-services:
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2023-05-10T10:06:02.193599014+08:00"
+    created: "2023-05-10T10:16:09.732144293+08:00"
     description: A Helm chart for ITM Microservices
     digest: eaa8089dfed3f16c690f0d9f977c1ec0e5e66b0ae8e75371226d94cea9ff6d43
     name: itm-services
@@ -55,4 +55,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/monstercy/helm_repo/main/itm-services-2.0.0.tgz
     version: 2.0.0
-generated: "2023-05-10T10:06:02.190265548+08:00"
+generated: "2023-05-10T10:16:09.729615688+08:00"
