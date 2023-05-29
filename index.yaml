@@ -3,7 +3,7 @@ entries:
   ai-inference:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-29T18:32:44.247279105+08:00"
+    created: "2023-05-29T18:35:15.726688219+08:00"
     description: A Helm chart for Kubernetes
     digest: 8263c1a022a6a17728bb0864a5648d7c652dec78cdd72774277745dd7a805f39
     name: ai-inference
@@ -14,7 +14,7 @@ entries:
   ai-inference-couple:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-29T18:32:44.24801489+08:00"
+    created: "2023-05-29T18:35:15.727469534+08:00"
     description: A Helm chart for Kubernetes
     digest: 78115e20657039a2afa6b386e607ab7c18b82852f618bcb1131832ce7617fcb2
     name: ai-inference-couple
@@ -25,7 +25,7 @@ entries:
   ai-structuring:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-29T18:32:44.24829731+08:00"
+    created: "2023-05-29T18:35:15.727707227+08:00"
     description: A Helm chart for Kubernetes
     digest: 07fd9528585963e932df5adcc5b1b2719b3be5c7b3471916d8986b32f21f441c
     name: ai-structuring
@@ -36,7 +36,7 @@ entries:
   evi-redis:
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2023-05-29T18:32:44.254196516+08:00"
+    created: "2023-05-29T18:35:15.734147085+08:00"
     description: A Helm chart for Kubernetes
     digest: 3f41391ccb6b993ebe52ad85b22276d1e76ef4e3ac911670d221e82a8b3d3ca9
     name: evi-redis
@@ -47,9 +47,9 @@ entries:
   evi-standalone-redis:
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2023-05-29T18:32:44.254394592+08:00"
+    created: "2023-05-29T18:35:15.734301294+08:00"
     description: A Helm chart for Kubernetes
-    digest: 1fe71a045bf4b2ea6894d52f0518f201c7730303bf34d3cdd7455397f2f203bd
+    digest: 9ac2a5715ead97cbf966f563daec1e9f3033c55c174d0591be4990f6c39c026f
     name: evi-standalone-redis
     type: application
     urls:
@@ -57,7 +57,7 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2023-05-29T18:32:44.259558874+08:00"
+    created: "2023-05-29T18:35:15.740337997+08:00"
     description: A Helm chart for Kubernetes
     digest: 62f4c21c60c9bdbdd9176d2c398a5a854b99a2a7dcb65336c5466fd2afb4baca
     name: evi-standalone-redis
@@ -68,7 +68,7 @@ entries:
   itm-mqtt-broker:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-05-29T18:32:44.254534229+08:00"
+    created: "2023-05-29T18:35:15.734457996+08:00"
     description: Helm chart for HiveMQ broker
     digest: 99d4a46e4b6aeb8a256476b2f5fa3d9739fb08cc0b5cc874c45ab0e2a9f4b6d4
     name: itm-mqtt-broker
@@ -79,7 +79,7 @@ entries:
   itm-services:
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2023-05-29T18:32:44.254958885+08:00"
+    created: "2023-05-29T18:35:15.734869741+08:00"
     description: A Helm chart for ITM Microservices
     digest: eaa8089dfed3f16c690f0d9f977c1ec0e5e66b0ae8e75371226d94cea9ff6d43
     name: itm-services
@@ -90,7 +90,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-29T18:32:44.259342367+08:00"
+    created: "2023-05-29T18:35:15.740141261+08:00"
     dependencies:
     - name: redis
       repository: https://charts.helm.sh/stable
@@ -104,4 +104,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/monstercy/helm_repo/main/redis-0.8.0.tgz
     version: 0.8.0
-generated: "2023-05-29T18:32:44.246496332+08:00"
+generated: "2023-05-29T18:35:15.725968214+08:00"
