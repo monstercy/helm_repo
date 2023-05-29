@@ -3,9 +3,9 @@ entries:
   ai-inference:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T10:16:09.730369516+08:00"
+    created: "2023-05-29T13:45:18.969603211+08:00"
     description: A Helm chart for Kubernetes
-    digest: 6d13cc97a8fe44c8edebf16a51083c5838a20a806f897ab9195f1730536a46a2
+    digest: 8263c1a022a6a17728bb0864a5648d7c652dec78cdd72774277745dd7a805f39
     name: ai-inference
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   ai-inference-couple:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T10:16:09.731248473+08:00"
+    created: "2023-05-29T13:45:18.970649374+08:00"
     description: A Helm chart for Kubernetes
     digest: 78115e20657039a2afa6b386e607ab7c18b82852f618bcb1131832ce7617fcb2
     name: ai-inference-couple
@@ -25,7 +25,7 @@ entries:
   ai-structuring:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T10:16:09.731521799+08:00"
+    created: "2023-05-29T13:45:18.970925498+08:00"
     description: A Helm chart for Kubernetes
     digest: 07fd9528585963e932df5adcc5b1b2719b3be5c7b3471916d8986b32f21f441c
     name: ai-structuring
@@ -36,7 +36,7 @@ entries:
   itm-mqtt-broker:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-05-10T10:16:09.731680488+08:00"
+    created: "2023-05-29T13:45:18.971308876+08:00"
     description: Helm chart for HiveMQ broker
     digest: 99d4a46e4b6aeb8a256476b2f5fa3d9739fb08cc0b5cc874c45ab0e2a9f4b6d4
     name: itm-mqtt-broker
@@ -47,7 +47,7 @@ entries:
   itm-services:
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2023-05-10T10:16:09.732144293+08:00"
+    created: "2023-05-29T13:45:18.972566325+08:00"
     description: A Helm chart for ITM Microservices
     digest: eaa8089dfed3f16c690f0d9f977c1ec0e5e66b0ae8e75371226d94cea9ff6d43
     name: itm-services
@@ -55,4 +55,21 @@ entries:
     urls:
     - https://raw.githubusercontent.com/monstercy/helm_repo/main/itm-services-2.0.0.tgz
     version: 2.0.0
-generated: "2023-05-10T10:16:09.729615688+08:00"
+  redis:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-29T13:45:18.975999994+08:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.helm.sh/stable
+      tags:
+      - redis
+      version: 10.5.7
+    description: A Helm chart for Kubernetes
+    digest: 83d9a555ae55c5bd6382e248abc0fc899f94f0031cf8b949e3f3b8e3e635e4c5
+    name: redis
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/monstercy/helm_repo/main/redis-0.8.0.tgz
+    version: 0.8.0
+generated: "2023-05-29T13:45:18.968033924+08:00"
