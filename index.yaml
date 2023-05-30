@@ -3,7 +3,7 @@ entries:
   ai-inference:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T14:59:55.842886868+08:00"
+    created: "2023-05-30T15:15:10.647625835+08:00"
     description: A Helm chart for Kubernetes
     digest: 8263c1a022a6a17728bb0864a5648d7c652dec78cdd72774277745dd7a805f39
     name: ai-inference
@@ -14,7 +14,7 @@ entries:
   ai-inference-couple:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T14:59:55.843673571+08:00"
+    created: "2023-05-30T15:15:10.648349493+08:00"
     description: A Helm chart for Kubernetes
     digest: 78115e20657039a2afa6b386e607ab7c18b82852f618bcb1131832ce7617fcb2
     name: ai-inference-couple
@@ -25,7 +25,7 @@ entries:
   ai-structuring:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T14:59:55.843924385+08:00"
+    created: "2023-05-30T15:15:10.648604964+08:00"
     description: A Helm chart for Kubernetes
     digest: 07fd9528585963e932df5adcc5b1b2719b3be5c7b3471916d8986b32f21f441c
     name: ai-structuring
@@ -36,9 +36,9 @@ entries:
   evi-featurematching-service:
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2023-05-30T14:59:55.844325195+08:00"
+    created: "2023-05-30T15:15:10.649019261+08:00"
     description: A Helm chart for Kubernetes
-    digest: 2220e10b249ce9faf112dd7b77c7d5f32959c5b7376fde26c4ca67f6f876cd0f
+    digest: 68259cdff409021583f1ed984c7d87fa21a726f4c9f13ea0c82bc381840024c2
     name: evi-featurematching-service
     type: application
     urls:
@@ -47,7 +47,7 @@ entries:
   evi-redis:
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2023-05-30T14:59:55.850150887+08:00"
+    created: "2023-05-30T15:15:10.655016761+08:00"
     description: A Helm chart for Kubernetes
     digest: 3f41391ccb6b993ebe52ad85b22276d1e76ef4e3ac911670d221e82a8b3d3ca9
     name: evi-redis
@@ -58,7 +58,7 @@ entries:
   evi-standalone-redis:
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2023-05-30T14:59:55.850345363+08:00"
+    created: "2023-05-30T15:15:10.655256782+08:00"
     description: A Helm chart for Kubernetes
     digest: 363519d6722f3abfd226d08698608b5809fcef0ce4cd44d0a0729e47fa9a6f79
     name: evi-standalone-redis
@@ -68,7 +68,7 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2023-05-30T14:59:55.855542107+08:00"
+    created: "2023-05-30T15:15:10.660810042+08:00"
     description: A Helm chart for Kubernetes
     digest: d95b4eca8cf9ca28ddc55f5123b022269ff3577bc9de511e4ce744036e5f8a32
     name: evi-standalone-redis
@@ -78,7 +78,7 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2023-05-30T14:59:55.855736144+08:00"
+    created: "2023-05-30T15:15:10.660991663+08:00"
     description: A Helm chart for Kubernetes
     digest: 62f4c21c60c9bdbdd9176d2c398a5a854b99a2a7dcb65336c5466fd2afb4baca
     name: evi-standalone-redis
@@ -89,7 +89,7 @@ entries:
   itm-mqtt-broker:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-05-30T14:59:55.850480406+08:00"
+    created: "2023-05-30T15:15:10.65539561+08:00"
     description: Helm chart for HiveMQ broker
     digest: 99d4a46e4b6aeb8a256476b2f5fa3d9739fb08cc0b5cc874c45ab0e2a9f4b6d4
     name: itm-mqtt-broker
@@ -100,7 +100,7 @@ entries:
   itm-services:
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2023-05-30T14:59:55.850891749+08:00"
+    created: "2023-05-30T15:15:10.655790308+08:00"
     description: A Helm chart for ITM Microservices
     digest: eaa8089dfed3f16c690f0d9f977c1ec0e5e66b0ae8e75371226d94cea9ff6d43
     name: itm-services
@@ -111,7 +111,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T14:59:55.855413158+08:00"
+    created: "2023-05-30T15:15:10.660693208+08:00"
     dependencies:
     - name: redis
       repository: https://charts.helm.sh/stable
@@ -125,4 +125,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/monstercy/helm_repo/main/redis-0.8.0.tgz
     version: 0.8.0
-generated: "2023-05-30T14:59:55.842168651+08:00"
+generated: "2023-05-30T15:15:10.646793385+08:00"
